@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 93acafe8c628f3c31b4fed7eda3eba417ac9dbf7
 # Text units
 * **word**(**token/term**): 一个或者多个不包含空格的字符序列。有时候还会包括n-grams
 * **document(text sequence/snippet)** 句子，段落，社交媒体帖子等
