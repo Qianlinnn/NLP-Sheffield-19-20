@@ -9,7 +9,7 @@
 * X也可以把文档中所有文字的one-hot 向量相加然后转置他们
 
 # tf-idf 公式
-     (https://raw.githubusercontent.com/Qianlinnn/NLP-/master/img/idf_tfidf%E5%85%AC%E5%BC%8F.png)
+      https://raw.githubusercontent.com/Qianlinnn/NLP-/master/img/idf_tfidf%E5%85%AC%E5%BC%8F.png
 
       
 # Label 种类
