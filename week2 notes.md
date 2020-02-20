@@ -9,7 +9,7 @@
 * X也可以把文档中所有文字的one-hot 向量相加然后转置他们
 
 # tf-idf 公式
-      ![image](https://github.com/Qianlinnn/NLP-/raw/master/img/idf_tfidf%E5%85%AC%E5%BC%8F.png）
+  ![image](https://github.com/Qianlinnn/NLP-/raw/master/img/idf_tfidf%E5%85%AC%E5%BC%8F.png)
 
       
 # Label 种类
@@ -32,5 +32,34 @@
 * 法律，生物医学文本
 * 任意类型的文本
 
+# 监督性学习
+![superviesed learning](https://github.com/Qianlinnn/NLP-/raw/master/img/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+相像你在准备一场考试
+* 训练集数据组成了你过去的考试试卷
+* 在训练期间，你通过过去的试卷进行学习
+* 可以用验证机来测量预测准确率
+* 最后在实际考试(test data)中就可以被老师评价了
+
+##expression
+给了M对数据，文档x（向量）和正确的标签y
+  ![Dtrain公式]()
+用一个模型或者分类器f，参数为w，针对新的文档x取预测他的标签y
+  ![y = f(x,w)]()
+  
+  
+# Binary logistic regression(二元逻辑回归)
+* 假设一个文档向量使用counts/ N 即单词/特征
+* 我们的第一个分类器就是一个线性模型，就是文档x里的每一个元素都跟weight wi 相关，叫做逻辑回归
+* 如何去预测标签y如积极的 1， 消极的0情绪，并且哟个概率来表示呢？
+
+
+## 逻辑回归示意图
+ ![逻辑回归示意图]()
+
+## 二元逻辑回归公式
+* 计算输入向量x和权重向量w的点积z，并且加入一个偏移量b
+        z = dot(w,x) + b
+        
+* 计算积极情绪使用下面的方程表示
 
 
