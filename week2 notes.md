@@ -7,6 +7,10 @@
 * 一个矩阵 X, |*D*|X|*V*| 行是在语料库里*D*的的文档个数， 列是在*V*里面的词汇表
 * 每一个文档，都要计算属于词汇表的单词出现了多少次
 * X也可以把文档中所有文字的one-hot 向量相加然后转置他们
+
+# tf-idf 公式
+     ![Aaron Swartz](https://raw.githubusercontent.com/Qianlinnn/NLP-/master/img/idf_tfidf%E5%85%AC%E5%BC%8F.png)
+
       
 # Label 种类
 * 积极的或消极的 
