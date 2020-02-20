@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 93acafe8c628f3c31b4fed7eda3eba417ac9dbf7
 # Text units
 * **word**(**token/term**): 一个或者多个不包含空格的字符序列。有时候还会包括n-grams
 * **document(text sequence/snippet)** 句子，段落，社交媒体帖子等
@@ -26,3 +23,10 @@
 * real number， 预测一个电影的评分是多少，我们通常叫他回归
 
 # 文本类型(Text types)
+* 新闻文章
+* 社交媒体帖子
+* 法律，生物医学文本
+* 任意类型的文本
+
+
+
