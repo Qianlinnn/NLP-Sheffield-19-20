@@ -1,2 +1,1 @@
-# NLP
-  ![image](https://github.com/Qianlinnn/NLP-/raw/master/img/idf_tfidf%E5%85%AC%E5%BC%8F.png)
+# 本仓库为谢菲尔德大学19-20NLP课程的课件中文翻译。仅为自己学习记录复习所用。
