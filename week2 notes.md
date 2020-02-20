@@ -42,9 +42,9 @@
 
 ##expression
 给了M对数据，文档x（向量）和正确的标签y
-  ![Dtrain公式]()
+  ![Dtrain公式](https://github.com/Qianlinnn/NLP-/raw/master/img/Dtrain.png)
 用一个模型或者分类器f，参数为w，针对新的文档x取预测他的标签y
-  ![y = f(x,w)]()
+  ![y = f(x,w)](https://github.com/Qianlinnn/NLP-/raw/master/img/f().png)
   
   
 # Binary logistic regression(二元逻辑回归)
@@ -54,12 +54,39 @@
 
 
 ## 逻辑回归示意图
- ![逻辑回归示意图]()
+ ![逻辑回归示意图](https://github.com/Qianlinnn/NLP-/raw/master/img/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 ## 二元逻辑回归公式
 * 计算输入向量x和权重向量w的点积z，并且加入一个偏移量b
         z = dot(w,x) + b
         
 * 计算积极情绪使用下面的方程表示
+![积极](https://github.com/Qianlinnn/NLP-/raw/master/img/%E7%A7%AF%E6%9E%81%E6%83%85%E7%BB%AA.png)
+
+* 预测最高可能性的哪一类标签
+
+* sigmoid function
+![function expression]()
+
+![function image]()
+## Multiclass Logistic Regression(多类别逻辑回归)
+* 超过一个类别 y ∈ Y = {0,...,k} 如一个新闻可能有三个类别，它是关于运动(y=0)，政治(y=1)，或者科技(y=2)
+
+* y一个关于权重的矩阵 W， size为k*n， k是种类的数量， n是输入向量特征的数量
+
+* 每一个种类y都会有一个权重向量w
+
+
+
+### 公式
+* 计算输入向量和权重矩阵，并且加入一个便宜向量，结果向量是z
+![多类别逻辑回归结果向量表达式]()
+* 通过softmax函数来计算每一个种类的出现概率
+[softmax函数解释链接](https://www.zhihu.com/question/23765351)
+![softmax计算每一个种类概率表达式]()
+* 预测出现概率最高的种类
+![softmax函数最高概率表达式]()
+
+* softmax函数是将向量所有值压缩到0-1之间，且和为1，从而得到概率分布
 
 
